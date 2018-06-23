@@ -65,7 +65,7 @@ class Search extends React.Component {
 
     return (
       <div className='mainContainer'>
-        <h1>Search your favorite artist top 5 albums!</h1>
+        <h1>Search your favorite artists top 5 albums!</h1>
         <span className="emoji" role="img" aria-label="finger-point">👇🏻👇🏻👇🏻</span>
         <form>
           <input type="text" placeholder="Enter artist..." value={this.state.query} onChange={this.handleInputChange} onKeyPress={this.handleEnter} />
