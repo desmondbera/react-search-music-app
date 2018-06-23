@@ -4,7 +4,7 @@ import './App.css';
 import Suggestions from './SuggestionComponent';
 
 const API_KEY = '18d5ae46dac0b78c455c6d608b79d137'
-const API_URL = 'http://ws.audioscrobbler.com/2.0/?method=artist.search&artist='
+const API_URL = 'https://ws.audioscrobbler.com/2.0/?method=artist.search&artist='
 
 
 class Search extends React.Component {
