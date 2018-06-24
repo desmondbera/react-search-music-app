@@ -56,9 +56,6 @@ class Search extends React.Component {
     }
   }
 
-  handleSearchStaus() {
-
-  }
 
   render() {
 
